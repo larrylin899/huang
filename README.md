@@ -25,3 +25,11 @@
 [下载第二版主题 ZIP](https://github.com/larrylin899/huang/raw/refs/heads/main/Fasamia-Reference-Homepage-v2.zip)
 
 原下载地址同步更新为第二版。新增集合需在主题编辑器中选择；对比值和服务承诺需根据真实情况设置。
+
+## 第三版更新
+
+全站页尾显示 Foot Menu 中的政策链接，电脑横排、手机两列；无菜单时回退到店铺已发布政策。
+
+[下载第三版主题 ZIP](https://github.com/larrylin899/huang/raw/refs/heads/main/Fasamia-Reference-Homepage-v3.zip)
+
+原下载地址已同步更新为第三版。如未自动识别菜单，请在页尾的 Fasamia • Footer policies 设置中选择实际菜单。
