@@ -2,3 +2,5 @@
 Shopify CLI 3.86.1 Theme Check：原版和改版均有 139 个错误、4 个警告；按文件、规则、严重度和消息比较，没有新增问题。新增两个 section 未报告问题。
 原有问题包含 schema placeholder 属性及静态 block ID 检查，保留原主题文件，不在此次首页改版中批量修复。
 已验证 ZIP 完整性。尚未连接 Shopify 进行渲染、响应式视觉及购物车/结账流程测试。
+
+第二版：7 个首页 section 的引用、设置字段及排序检查通过；新增 section schema JSON 有效。Shopify CLI 3.86.1 检查对比原版无新增问题，ZIP 完整性通过。未在 Shopify 实际渲染验证。

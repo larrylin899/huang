@@ -17,3 +17,11 @@
 详见 [安装说明](安装说明.txt) 和 [检查结果](检查结果.txt)。
 
 横幅使用占位图，需要上传有使用权的图片；商品集合和导航需在后台配置。商品详情页保留原版。未连接 Shopify 进行实际渲染或交易流程验证，未修改线上店铺。
+
+## 第二版更新
+
+新增品牌对比区、Cozy Home、Safe Drive 和底部四项服务说明。
+
+[下载第二版主题 ZIP](https://github.com/larrylin899/huang/raw/refs/heads/main/Fasamia-Reference-Homepage-v2.zip)
+
+原下载地址同步更新为第二版。新增集合需在主题编辑器中选择；对比值和服务承诺需根据真实情况设置。
