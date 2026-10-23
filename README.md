@@ -1,5 +1,15 @@
 # Fasamia 首页主题包
 
+## One Homa 参考风格预览主题
+
+基于 One Homa 导出的 Savor 4.3.0，按 cwkbzc.com 首页布局制作。
+
+[下载 One Homa 主题 ZIP](https://github.com/larrylin899/huang/raw/refs/heads/main/OneHoma-Reference-Preview.zip) · [安装与检查说明](OneHoma-Installation.txt)
+
+请下载主题 ZIP 本身，在 Shopify 后台作为未发布主题上传预览；不要使用仓库的 Code → Download ZIP。
+
+已制作首页及全站页头页脚风格，并接入现有商品集合。横幅图片、Toy 集合、对比内容仍需配置；商品详情页保留原主题。尚未连接 Shopify 验证实际渲染、加购及结账，不是已发布或全站完全一致的版本。
+
 基于 Fasamia 导出的 Shopify Horizon 4.1.4 主题，按提供的首页截图制作。
 
 ## 下载
