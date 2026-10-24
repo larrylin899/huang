@@ -1,0 +1,53 @@
+Bevanto 足球参考风格主题
+
+安装
+Shopify 后台 → 在线商店 → 主题 → 添加主题 → 上传 ZIP 文件。
+上传 Bevanto-Football-Reference.zip，作为未发布主题预览，确认后自行发布。
+不要上传整个 GitHub 仓库的 Code → Download ZIP。
+原始主题已保留，本次没有连接后台、修改线上主题或发布店铺。
+
+基础与范围
+以用户上传的 Balance 主题 ZIP 为基础；ZIP 内部 theme_info 标识为 Shopify Horizon 3.5.1。
+按 wearefootball.us 当前公开页面制作（参考站页面品牌为 Kinetra），保留 Bevanto 品牌与店铺实际数据。
+首页：深蓝公告、浅灰导航、绿色消息滚动栏、红色球队图片滚动条、橄榄球横幅、六个球队入口、十个球员入口、服务轮播、订阅表单、深蓝页脚。
+电脑球队三列、球员四列轮播；手机球队和球员两列，服务区单项滑动。
+图片及 DM Sans 字体已打入 ZIP，运行时无需从参考店铺加载图片或字体。
+页头保留原主题的搜索、账户与购物车组件，替换足球导航；关闭旧书籍首页和页脚展示。
+商品页：单张大图与缩略图、尺寸按钮、原生悬浮加购栏，以及读取本店真实政策与商品描述的折叠区域。
+分类页、搜索和购物车保留 Horizon 原生流程，并配合全站字体、色彩与商品卡样式调整。
+此包不是 Shrine 主题源代码，也未复制参考站的隐藏后台、应用、销量评价、促销规则或结账配置；不应视为全站逐页完全相同的版本。
+
+按用户选择：足球内容，球队与球员集合稍后在后台配置
+已预设球队：Chicago Bears、Buffalo Bills、Philadelphia Eagles、Green Bay Packers、Kansas City Chiefs、Seattle Seahawks。
+导航另外包含 San Francisco 49ers。
+已预设球员：Fred Warner、Caleb Williams、Josh Allen、Jaxson Dart、Nico Collins、Trevor Lawrence、Jahmyr Gibbs、Lamar Jackson、Jaxon Smith-Njigba、Justin Jefferson。
+
+集合与入口工作方式
+每个入口依次使用：手动链接 → 手动选择的集合 → 根据标题自动查找同名 handle 的集合 → 本店商品搜索。
+不会自动创建集合或导入参考站商品；也不会跳转到参考商店或不存在的 /collections 页面。
+示例：Chicago Bears 尚无集合时，访问本店 /search?type=product&q=Chicago+Bears。
+后台新建 chicago-bears 集合后，不必重新打包，入口会自动使用它。
+自动集合可按商品标题包含球队/球员姓名来设置。请以实际商品标题核实条件。
+本次公开目录查询发现 88 件商品，部分球队/球员还没有匹配商品；搜索可能显示空结果。这不是主题创建了新商品。请补齐商品，或在编辑器删除相应入口。
+
+主题编辑器中建议完成
+1. 页头 → Header：Use football navigation 保持启用；Team menu override 可选择自己创建的球队菜单。Contact page link、Help page link 选择真实页面；未选择时分别回退到本店联系邮箱（若有）和页脚服务区。
+2. BV Announcement、BV Promo ticker：修改公告与促销文案。默认没有启用参考站的 60% OFF、第二件折扣或包邮承诺。文字不等于后台折扣规则，实际折扣需另在 Shopify 配置。
+3. BV Team ticker、Shop by Teams、Hot Start, Hot Jerseys：可逐项选择集合、替换图片、修改标题及搜索词。图片滚动条与首页入口分别可编辑，也支持自动识别集合。
+4. BV Football banner：已内置参考横幅；可上传自己的桌面/手机横幅，并设置点击链接。
+5. BV Store services：服务说明当前为中性文字，按真实物流、退换货、客服和支付政策修改；Shipping、Returns 路径需确认本店政策已发布。未照搬参考站 100 美元包邮、30 天保证或全天客服承诺。
+6. BV Newsletter：使用 Shopify 原生 customer 订阅表单；真实订阅成功、错误和营销设置需在 Shopify 预览验证。
+7. BV Footer：选择 Customer Service 与 Quick links 的实际菜单。未选时分别显示本店已发布政策/联系邮箱，以及 Shop all、Search、账户入口。未复制参考站指向首页或其他账户的错误链接。支付图标来自本店实际启用的支付方式。
+8. 商品页 BV Product policies：显示本店已发布的物流/退款政策及商品描述，未复制参考页中与球衣无关的宠物政策。
+
+检查结果
+原始 ZIP 和交付 ZIP 完整性检查通过；交付 ZIP 的根目录为 Shopify 标准主题目录。
+Shopify CLI 3.86.1 Theme Check：原始包 0 errors / 0 warnings；改版最终结果 0 errors / 0 warnings。
+修改的 JSON、section/block 引用、设置 ID、枚举和数值范围对比检查无新增问题。
+本地 LiquidJS/Chromium 验证：320、390、768、1440px 无横向溢出；球队 6 项、球员 10 项；图片和字体加载通过；电脑/手机布局、轮播前后按钮、手机菜单、Escape 关闭、暂停动画、减少动态效果偏好及邮箱格式校验通过。
+集合搜索回退、自动识别集合、手动集合与链接覆盖顺序通过测试。
+本地布局示意图并非 Shopify 实际店铺截图：页头外壳、支付 SVG、Shopify customer form 的运行环境使用验证替身；原生页头搜索/购物车、表单提交、变体、加购和结账尚未连接 Shopify 验证。测试没有创建订阅或订单。
+
+发布前检查
+电脑/手机首页、球队与球员入口、集合筛选排序、搜索、菜单、商品大图/缩略图、不同尺码与库存、常规和悬浮加购、购物车数量、结账跳转、订阅成功/错误、政策链接和真实促销规则。
+可先让主题保持未发布，配置集合与菜单后再决定上线。

@@ -1,5 +1,17 @@
 # Fasamia 首页主题包
 
+## Bevanto 足球参考风格主题
+
+基于用户提供的主题（内部标识 Horizon 3.5.1），按 wearefootball.us 当前足球商店首页样式制作，保留 Bevanto 品牌与商品数据。
+
+[下载 Bevanto 足球主题 ZIP](https://github.com/larrylin899/huang/raw/refs/heads/main/Bevanto-Football-Reference.zip) · [安装与检查说明](Bevanto-Installation.txt)
+
+[电脑布局示意](Bevanto-Desktop-Preview.png) · [手机布局示意](Bevanto-Mobile-Preview.png)（本地组件验证图，非 Shopify 实际店铺截图，页头外壳与支付图标使用验证替身。）
+
+按用户选择预设球队/球员入口，集合可稍后在 Shopify 后台配置；未配置时使用本店商品搜索。图片和字体内置于主题。包含首页、足球导航、页脚、订阅区、商品图库/尺寸按钮/悬浮加购配置及本店政策折叠区。分类、搜索和购物车保留原主题流程并调整全局样式；不是全站所有页面、后台配置和应用的完全复制。
+
+Theme Check 为 0 errors / 0 warnings；本地 320/390/768/1440px 布局及交互检查通过。请上传为未发布主题预览，补齐集合、菜单和真实服务文案，再验证 Shopify 渲染、变体、加购、订阅与结账。尚未修改或发布线上店铺。
+
 ## One Homa 参考风格预览主题
 
 基于 One Homa 导出的 Savor 4.3.0，按 cwkbzc.com 首页布局制作。
