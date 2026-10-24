@@ -1,5 +1,17 @@
 # Fasamia 首页主题包
 
+## One Homa — Ahlwo 参考风格主题（最新版）
+
+基于用户最新导出的 Horizon 4.1.4 / Fasamia 风格主题，按 ahlwo.com 当前公开页面制作，保留 One Homa 品牌与真实商品数据。
+
+[下载 One Homa / Ahlwo 主题 ZIP](https://github.com/larrylin899/huang/raw/refs/heads/main/OneHoma-Ahlwo-Reference.zip) · [安装与检查说明](OneHoma-Ahlwo-Installation.txt)
+
+[电脑布局示意](OneHoma-Ahlwo-Desktop-Preview.png) · [手机布局示意](OneHoma-Ahlwo-Mobile-Preview.png)（本地验证图，非 Shopify 实际店铺截图；原生页头外壳、支付图标和联系方式使用验证替身。）
+
+包含绿色公告、参考横幅、四组商品、对比表、手机横向商品/服务区、绿色三列页脚及商品图库调整。首页 15 个商品位置已匹配本店 12 个实际商品；价格、库存和图片读取本店数据。第二张含 60% OFF 的图片已内置但默认关闭，核实促销后再开启或替换。未复制参考站评分、公司身份和服务承诺。
+
+本地布局/交互检查通过。Theme Check 与原始包同为 139 errors / 4 warnings，没有新增检查问题；完整检查不能称为通过。请作为未发布主题上传，验证 Shopify 实际渲染、商品选择、变体、加购及结账。尚未修改线上店铺；不是后台应用、捆绑优惠和全站每个页面的完全复制。
+
 ## Bevanto 足球参考风格主题
 
 基于用户提供的主题（内部标识 Horizon 3.5.1），按 wearefootball.us 当前足球商店首页样式制作，保留 Bevanto 品牌与商品数据。

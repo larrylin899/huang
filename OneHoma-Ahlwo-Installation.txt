@@ -1,0 +1,48 @@
+One Homa — Ahlwo 参考风格主题
+
+下载与安装
+下载 OneHoma-Ahlwo-Reference.zip 本身，不要使用 GitHub 的 Code → Download ZIP。
+Shopify 后台 → 在线商店 → 主题 → 添加主题 → 上传 ZIP 文件。
+先作为未发布主题预览；核实布局、商品、政策和交易流程后再自行发布。本次没有修改线上店铺。
+原始上传 ZIP 已保留。基于最新导出的 Fasamia 风格主题，内部标识 Shopify Horizon 4.1.4。
+
+完成内容
+按 ahlwo.com 当前公开页面制作绿色双行公告、白色导航、宽幅横幅、BestSellers、Happy Play、对比表、Cozy Home、Safe Drive、服务区和绿色三列页脚。
+参考横幅图片已放入主题 ZIP；无须从 Ahlwo 运行时加载图片。
+电脑四列商品卡；手机每次显示两张、可左右滑动；服务区手机单项滑动并带选择圆点。
+产品标题、图片、价格、原价和真实评价（如本店有 reviews metafields）读取 One Homa 商品数据，不显示参考站的假数据。折扣按最低价变体对应原价计算，取整向下，避免抬高折扣值。
+商品页调整为大图/底部缩略图布局；保留原生变体、库存、描述、搜索、加购、悬浮加购及购物车流程，配合全站字体和绿色主色。
+参考站的捆绑销售、加购推荐、评价应用、物流附加项目、后台折扣和结账并未复制。这不是全站所有页面/应用的完全相同版本。
+
+已匹配首页全部 15 个商品位置
+One Homa 公开商品目录共返回 999 件；全部首页商品位置都找到了本店实际商品，共 12 个不同商品：
+BestSellers：工程车套装、桌面遥控叉车、迷你剃须刀、迷你 GPS。
+Happy Play：桌面遥控叉车、遥控直升机、1/64 遥控漂移车、1/64 迷你坦克。
+Cozy Home：旋转迪斯科灯、迷你 GPS、智能灯泡摄像头、感官解压星。
+Safe Drive：迷你 GPS、360° 磁吸支架、防冻干扰仪。
+显示 One Homa 自己的商品名与价格，因此可能与参考店铺文案和价格不同。
+删除或下架商品会影响其显示，请在编辑器及时替换。
+
+主题编辑器配置
+1. AH Announcement：可编辑滚动信息和第二行文字。未复制参考站“4.8/5、70,000+ reviews”、79 美元包邮、30 天保证或 24 小时发货承诺。
+2. AH Banner slideshow：第一张“Upgrade Your Day, Every Day”图片默认启用。第二张参考图包含“60% OFF”宣传，已内置但默认关闭。核实实际促销后再启用，或上传自己的桌面/手机图。可新增多张图、设置点击链接、手动切换或开启自动播放。
+3. 四个 AH Product carousel 区：Products in display order 已按参考顺序选好本店商品。可更换或排序；清空 Products 后会使用所选 Collection 的商品。
+4. 每区 View all 默认指向本店全部商品。选择真实集合后可自动改为集合地址，也可在 View all link 中单独覆盖。后台尚无 Best Seller/Toys/Home/Automobile 等集合时，主题不会自动创建。
+5. 页头 Header → Use reference navigation 默认开启。导航依次为 Home、Best Seller、Toys、Home、Automobile、Frequently Buy Together。优先使用同名 handle 的集合，缺失时回退到本店搜索/全部商品，不跳往参考店铺或不存在的集合。Reference navigation menu override 可选择自己的实际菜单。关闭参考导航会恢复原 main-menu。
+6. 对比表：品牌已改为 One Homa，数值保留破折号。请根据可验证信息填写；未复制参考站关于其他卖家、独家销售、包退和物流的未经核实描述。
+7. 服务区：保留本店原有中性说明、政策链接与客服入口。请核实链接有效性，再根据实际政策改写包邮门槛、退款期限或客服时段。
+8. AH Green footer：选择真实的 Information 与 Customer Service 菜单。Information 未选时尝试 foot-menu，找不到则显示 Shop all/Search；Customer Service 未选时显示本店已发布政策。
+9. 页脚 Contact Us 读取本店名称与店铺邮箱；公司信息可在编辑器填写，未复制 Ahlwo 的公司名、地址和邮箱。支付图标来自本店实际启用的支付方式。
+10. 全局 One Homa reference style → Use reference Helvetica/Arial font 控制参考系统字体。Logo 保留本店配置，没有替换为 Ahlwo 标志。
+
+验证与限制
+原始上传 ZIP 和交付 ZIP 完整性检查通过，主题根目录结构正确。
+修改的 JSON、section/block 引用、设置 ID、枚举与数值范围检查通过。
+Shopify CLI 3.86.1 Theme Check：原始包与改版均为 139 errors / 4 warnings；按相对文件、规则、严重度及消息比较，没有新增检查问题。原包的 schema placeholder、静态 block ID 等既有发现保留；完整 Theme Check 为非零退出，不能称为全部通过。
+本地 LiquidJS/Chromium 检查通过：320/390/768/1440px 无横向溢出；四个商品区数量为 4/4/4/3；全部图片加载；手机商品/服务滑动、菜单与 Escape 关闭、公告暂停、减少动态效果偏好、可选第二张横幅切换、最低价变体折扣及空选择逻辑。
+本地布局示意并非 Shopify 实际店铺截图：使用本店公开商品快照；页头外壳、金额/图片 Liquid filters 与支付图标使用验证替身，联系方式为示例占位。正式主题读取实际店铺数据。
+尚未连接 Shopify 后台验证实际 Liquid 渲染、主题编辑器产品列表解析、搜索、变体选择、加购、购物车、评价应用或结账。未创建订单，未自动发布。
+
+发布前
+电脑/手机首页、各商品与 View all 链接、菜单、搜索、商品图片/缩略图、变体与库存、常规和悬浮加购、购物车数量及结账跳转；还需检查政策链接、公司信息、真实促销和参考图片中的宣传语。
+保留现用主题，先以未发布主题预览并配置，再决定上线。
