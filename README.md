@@ -1,5 +1,17 @@
 # Fasamia 首页主题包
 
+## First Citys — Presentgivers 参考风格主题
+
+基于用户上传的 Horizon 4.1.4，按用户截图及 presentgivers.com 公开页面制作米色/橙色礼品店样式。
+
+[下载 First Citys 主题 ZIP](https://github.com/larrylin899/huang/raw/refs/heads/main/FirstCitys-Presentgivers-Reference.zip) · [安装与配置说明](FirstCitys-Installation.txt)
+
+[电脑布局示意](FirstCitys-Desktop-Preview.png) · [手机布局示意](FirstCitys-Mobile-Preview.png)（使用参考商品快照展示布局，未导入本店；页头、支付、表单和联系方式含本地验证替身，非 Shopify 实际预览。）
+
+包含横幅、橙色信息条、六件商品网格、三类礼品入口、竖版视频、礼品介绍、特色说明及订阅页脚。商品由本店选择器/集合读取，需在编辑器选择实际商品；First Citys 公开目录尚未读取验证。分类缺失时回退本店搜索。图片和字体已内置；视频为可替换的远程参考链接，优先使用编辑器选择的本店上传视频。
+
+320/390/921/1440px 本地布局及交互检查通过。Theme Check 原包 139 errors / 4 warnings，新版 139 errors / 5 warnings；无新增错误，新增一项远程视频性能提示。请上传为未发布主题，配置商品、集合及联系信息，验证真实渲染、变体、加购、订阅、视频播放和结账。未修改线上店铺，也未复制全部后台应用或未经核实的客户数量声明。
+
 ## One Homa — Ahlwo 参考风格主题（最新版）
 
 基于用户最新导出的 Horizon 4.1.4 / Fasamia 风格主题，按 ahlwo.com 当前公开页面制作，保留 One Homa 品牌与真实商品数据。

@@ -1,0 +1,57 @@
+First Citys — Presentgivers 参考风格主题
+
+安装
+下载 FirstCitys-Presentgivers-Reference.zip 本身，不要下载整个 GitHub 仓库 ZIP。
+Shopify 后台 → 在线商店 → 主题 → 添加主题 → 上传 ZIP 文件。
+先保持未发布，配置商品与分类后再预览，确认后自行发布。
+原始 Horizon 4.1.4 上传包已保留；本次没有连接后台或修改线上店铺。
+
+已制作内容
+根据用户截图和 presentgivers.com 当前公开页面，制作米色背景、Poppins 字体、橙色导航选中状态、礼物横幅、橙色滚动信息、六格商品区、三张分类入口、三段竖版视频、视频加文字礼品介绍、特色说明和带邮件订阅的页脚。
+电脑商品三列、手机两列；分类电脑三列、手机单列；视频手机可横滑。
+商品页设置大图与底部缩略图；搜索、变体、库存、加购、购物车和结账仍采用 Horizon 原生流程，配合全局字体与色彩调整。
+不包含参考店铺的后台折扣、捆绑应用、评价系统或所有页面的完全复制。
+
+重要：先选择本店商品
+当前环境能读取参考站，但 First Citys 公开地址仍被代理拦截，无法核实本店实际商品与集合。
+主题不会创建或导入参考站商品，也没有写入参考站价格、库存或销量。
+PG Bestseller grid → Products in display order 中选择本店商品，建议按参考图依次选择对应礼物。也可选择 Collection；没有手动产品时优先显示该集合，其次显示本店全部商品，最多默认六件。
+如果本店尚无商品，线上不会显示虚构商品卡；编辑器会提示选择商品。请先在 Shopify 上架真实商品。
+“TOP 10🔥 Bestsellers”是可编辑标题，参考图显示六件；可更改标题、显示数量和 View all 链接。实际热销排序需选择或配置真实集合。
+
+参考图六个商品位置（仅供人工核对，不会自动导入）
+1. Sea Glass Gnome Advent Calendar 2026
+2. Build Your Own Spooky Haunted House / DIY Halloween Decor Kit
+3. Fishing Advent Calendar 2026
+4. 2026 Christmas Gnome Advent Calendar
+5. 24 Pcs Countdown Christmas Rubber Ducks Advent Calendar
+6. DIY Christmas Advent Calendar Bracelets Set
+
+主题编辑器设置
+1. Header：Use gift navigation 默认开启。Gift menu override 可选择实际菜单。默认 Home、2026 Advent Calendar、Christmas Ornaments、Emotional Support Gifts。
+2. 分类与导航优先连接所选集合或相同 handle 的本店集合：advent-calendar、christmas-ornaments、emotional-support-gifts。没有集合则回退到本店商品搜索，不会跳到参考商店或不存在的集合。
+3. PG Gift banner：已内置截图对应的电脑/手机横幅，可上传自己的替换图，或修改点击链接。
+4. PG Orange ticker：可修改文案。默认没有复制“10,000+ Happy Customers”或未经核实的产品保证。
+5. PG Gift categories：选择三个实际集合，可改图、标题、搜索词和链接。
+6. PG Gift videos / PG Gift story：内置参考示例视频的静态封面和公开视频链接；默认由访客点击播放，不自动播放声音。建议在 Your uploaded video 中选择自己上传的对应视频，优先使用本店视频；没有上传视频时才使用 Video URL。
+7. 四段视频没有打入 ZIP，播放需要网络及源链接可用。源站更改或移除视频后，需替换为自己的文件。视频用于礼物展示，没有标注为 First Citys 的真实客户评价。
+8. PG Gift story、PG Why choose us：修改介绍和特色。未复制参考站 100%、98%、95% 等没有本店依据的数字。
+9. PG Gift footer：选择真实政策菜单，填写本店联系信息和客服时间；默认读取本店已发布政策、名称和邮箱，不使用 Presentgivers 的邮箱或营业时间。
+10. 订阅使用 Shopify customer 表单；默认按钮 Subscribe，不承诺未配置的优惠码。真实订阅、错误提示和营销设置需在 Shopify 预览验证。
+11. Logo 沿用本店配置；支付图标读取本店实际启用的支付方式。
+
+图片与视频
+参考图片与 Poppins 常规/粗体字体已经放入主题 assets，图片不依赖参考站实时加载。
+远程视频保留公开来源，支持店铺上传视频覆盖；文件内没有参考站主题源码或后台应用代码。
+
+验证
+ZIP 完整性、标准主题根目录检查通过。
+修改的 JSON、section/block 引用、设置 ID、枚举与范围对比无新增问题。
+Shopify CLI 3.86.1 Theme Check：原始 139 errors / 4 warnings；新版 139 errors / 5 warnings。无新增错误；新增一条 RemoteAsset 性能提示，来自视频 URL 外部加载。原始包的 schema placeholder、静态 block ID 等发现没有批量改写，完整检查并非通过。
+四个远程视频链接返回 HTTP 206，内容类型 video/mp4；只验证了内容类型和部分响应，未验证完整播放。
+本地 LiquidJS/Chromium 布局与交互检查详见仓库说明。布局示意使用参考站商品快照，原生页头、支付图标和 Shopify 表单运行环境为验证替身，不代表 First Citys 商品已导入或线上店铺已更改。示意中的联系方式为占位，正式主题读取实际店铺数据。
+尚未连接 Shopify 验证实际 Liquid 渲染、商品集合、原生搜索、变体、加购、订阅提交、视频完整播放和结账；没有创建订单或订阅。
+
+发布前核对
+本店六个实际商品及价格/库存；三个集合和导航；手机/电脑横幅裁切；视频封面与实际播放；政策与联系方式；订阅成功/失败；变体和加购；购物车数量与结账跳转。
+保留原主题，先作为未发布主题完成预览与配置。
