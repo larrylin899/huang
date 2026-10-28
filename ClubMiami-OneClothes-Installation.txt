@@ -1,0 +1,57 @@
+ClubMiami — One Clothes 参考风格主题
+
+安装
+下载 ClubMiami-OneClothes-Reference.zip 本身，不要使用 GitHub 的 Code → Download ZIP。
+Shopify 后台 → 在线商店 → 主题 → 添加主题 → 上传 ZIP 文件。
+先作为未发布主题预览，完成商品、集合、政策和交易流程检查后再自行发布。
+基于用户上传的 Dawn 16.1.0；原始 ZIP 已保留，本次没有连接 Shopify 后台或修改线上主题。
+
+完成内容
+按 oneclothes.com 当前公开首页制作球衣主题：黑金滚动信息、体育场大图、超大窄体标题、精选商品角标、不规则 Pick Your Game 分类卡、五组 Fan Favorites 切换、姓名/号码/颜色演示、三联赛球队查找、Throwback Vault、刺绣说明、Hardwood 商品区、Game Plan、服务说明、FAQ、金色结尾和订阅页脚。
+商品页保留 Dawn 原生选项、库存、价格、加购和购物车，调整大图/缩略图布局，并为标题含 Custom 的商品提供姓名与号码输入。
+本店名称、Logo、主菜单、账户和联系信息保留本店配置；未复制 One Clothes 的邮箱、地址、社交账号、Trustpilot 评价或后台应用。
+首页主模块是一个 ClubMiami stadium home section，可在编辑器配置。源码与图片参考公开页面，产品信息始终来自本店。
+
+本店商品匹配
+七组商品共 64 个展示位置：Best Sellers 10、NFL 10、College 10、Basketball 10、Custom 10、Throwbacks 10、Hardwood 4。
+参考站其中 62 个位置找到了本店对应商品，另外两处使用本店实际球衣替换：
+- Alabama Crimson Tide “2021 CFP National Championship” Custom Jersey → 本店 Men’s Oregon Ducks “Mighty Oregon” Throwback Football Custom Uniforms。
+- Wmns Air Max 270 “Throwback Future” 鞋款 → 本店 South Carolina Gamecocks 1980 Throwback Cheez-It Citrus Bowl Patch Jersey。
+首页合计使用 46 个不同的本店商品（含大横幅的 Ravens 展示款），没有导入参考站库存、价格或订单数据。
+商品名、价格、图片由 Shopify 实时读取；可能与参考站不同。删除、下架或更改商品后，请在编辑器更新选择。
+公开目录抓取期间存在分页重复，已按 handle 去重；商品总数由页面的本店 collections.all.products_count 动态读取，不把抓取数或参考站 3,606 件写死。
+
+编辑器设置
+1. 首页 → ClubMiami stadium home：可改横幅标题、介绍、图片与 Featured jersey。
+2. Best Sellers / NFL / College / Basketball / Custom / Throwback / Hardwood products 已按匹配顺序选好本店商品；可替换、移除或重新排序。清空某组 Products 后，才使用所选 Collection 的商品。
+3. 对应 Collection 选择真实本店集合；缺失时分类链接优先寻找相同 handle 的集合，再回退本店商品搜索。不会链接参考站，也不会创建后台集合。搜索结果可能比专业集合宽泛，建议建立正确的 NFL、College、Basketball、Custom、Throwback、Women、Youth 集合并绑定。
+4. 83 个球队入口使用本店搜索；NFL / College / Basketball 可切换。搜索框查询本店商品。
+5. 发货和退货说明默认使用中性文字，未套用参考站 1–3 天处理、30 天退货等承诺。Shipping information、Returns information 可在首页 section 设置里改成真实政策。
+6. FAQ 可逐条编辑、添加或删除。原生政策在 Shopify 后台维护，页脚读取本店已发布政策。
+7. 主菜单沿用 main-menu，原有 Track your order 路径保留。若需要参考站 About Us 项目，请在后台创建对应页面并配置菜单。
+8. 页脚 ClubMiami footer 可选择菜单并填写本店地址和联系详情。邮箱读取本店 shop.email，社交链接读取 Dawn 原有社交配置；没有配置时不显示其他商家的账号。
+9. 图片与 Big Shoulders Display / Inter / Graduate 字体均随 ZIP 提供；字体来自 Google Fonts 官方仓库，OFL 许可随 assets 文件提供。运行时无需请求参考站图片或 Google 字体。
+10. 原公告栏在新布局中默认不显示，其 section 设置仍保留。开启或调整请在页头组中配置。
+
+姓名号码定制
+首页演示支持最多 12 个字符的姓名、两位数字及六个演示配色。姓名按大写显示；号码仅保留数字。
+配色只改变演示球衣图，不会选择商品真实颜色、尺码或 SKU；页面已有提示，请在商品页选择真实变体。
+姓名与号码保存在当前浏览器 sessionStorage，进入标题含 Custom 的商品页时自动填入相应输入框。
+输入框关联 Dawn 原生 product-form，字段名为 properties[Name]、properties[Number]，可作为购物车行项目属性随表单发送。没有修改 Dawn 的价格、库存或订单接口，也没有自动下单。
+全局 Theme settings → ClubMiami customization 可开关字段，或要求姓名与号码必填。默认字段开启、非必填；普通商品不显示。
+仓库/供应商是否支持刺绣、定制范围、价格和退换货规则需由店铺确认。定制字段和演示不能替代后台生产流程、尺码、商品描述或实际履约。
+发布前务必测试：选择不同变体、填写姓名号码、加入购物车、确认 Name / Number 显示在正确行项目中，再检查结账。本次尚未连接真实 Shopify 加购流程验证。
+
+验证
+ZIP 完整性与 Shopify 标准目录结构检查通过。
+修改的 JSON、section/block 引用、设置 ID、枚举和范围检查无新增问题；Dawn 的 current 为预设名称时已解析成实际 current 设置。
+Shopify CLI 3.86.1 Theme Check：原始与新版均为 10 errors / 7 warnings，按相对文件、规则、严重度和消息比较，没有新增问题。原错误均为工具未识别的 standard_event_data、applicable_disclosures、money_amount 等过滤器；保留原主题逻辑，没有禁用检查。完整 Theme Check 仍为非零退出，不能称为全部通过。
+LiquidJS/Chromium 检查通过：1440、1024、768、390、320px 无横向溢出；64 张商品卡、7 个商品组轮播、83 个球队入口，图片和本地字体加载。
+产品与联赛选项卡点击/键盘切换、轮播前后按钮、FAQ、姓名/号码过滤、配色、暂停/减少动画偏好、邮箱格式验证通过。
+独立浏览器表单测试确认：演示姓名与号码可以预填到商品字段，并进入对应 form 的 FormData；普通商品不生成定制字段。此测试没有向 Shopify 提交订单或加入购物车。
+本地预览使用本店商品快照；页头外壳、金额/图片 Liquid filters、支付 SVG 和订阅表单环境是验证替身。预览中 ALEX / 23 为交互样例；这些示意图不是线上店铺截图，也不会修改商品。
+实际 Shopify Liquid 渲染、商品列表解析、变体更新后的输入保留、真实加购/购物车/结账、订阅提交和履约仍需在未发布主题预览验证。
+
+范围
+首页已按参考视觉结构制作；商品、分类、搜索和购物车保留 Dawn 原生流程并配合样式和定制字段调整，不是参考站所有页面、应用、后台集合、折扣及结账的完全复制。
+保留原主题以便切回，完成实际预览后再决定上线。

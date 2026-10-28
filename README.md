@@ -1,5 +1,19 @@
 # Fasamia 首页主题包
 
+## ClubMiami — One Clothes 参考风格主题
+
+基于用户上传的 Dawn 16.1.0，按 oneclothes.com 当前球衣首页制作黑金体育场风格，保留 ClubMiami 品牌、商品和原生购物流程。
+
+[下载 ClubMiami 主题 ZIP](https://github.com/larrylin899/huang/raw/refs/heads/main/ClubMiami-OneClothes-Reference.zip) · [安装与配置说明](ClubMiami-OneClothes-Installation.txt)
+
+[首屏布局示意](ClubMiami-Hero-Preview.png) · [电脑全页示意](ClubMiami-Desktop-Preview.png) · [手机全页示意](ClubMiami-Mobile-Preview.png)（本地验证图，非 Shopify 实际店铺截图；原生页头、支付 SVG 和 Shopify 运行环境含替身，ALEX/23 是定制交互样例。）
+
+包含体育场横幅、不规则分类、五组商品切换、姓名号码/配色演示、83 个球队入口、复古区、刺绣说明、篮球区、购买流程、FAQ 和订阅页脚。七组 64 个商品位置中 62 个匹配本店商品，另两处已换成本店实际球衣，共使用 46 个不同商品。集合可在编辑器绑定，缺少集合时使用本店搜索。自定义姓名号码可预填到 Custom 商品的原生表单行项目字段；演示配色不会选择实际变体。
+
+1440/1024/768/390/320px 本地布局与交互检查通过，浏览器 FormData 验证确认姓名号码与原生商品表单关联。Theme Check 与原包均为 10 errors / 7 warnings，无新增问题；原错误是检查器未识别的 Shopify 过滤器，完整检查并非通过。
+
+请先上传为未发布主题，核对集合、政策、定制履约支持、变体切换、购物车 Name/Number、订阅及结账。尚未修改线上店铺，也不是所有页面、后台应用与结账的完全复制。
+
 ## First Citys — Presentgivers 参考风格主题
 
 基于用户上传的 Horizon 4.1.4，按用户截图及 presentgivers.com 公开页面制作米色/橙色礼品店样式。
