@@ -1,0 +1,24 @@
+Pan Jewellry 修正版 v2 · 页头与页脚
+
+请下载 PanJewellry-Pandora-Reference-v2.zip，在 Shopify → 在线商店 → 主题 → 添加主题 → 上传 ZIP，新增为未发布主题并预览。不要重复上传旧版同名文件，也不要把ZIP当作单个assets上传。
+本次未修改或发布线上主题。
+
+本次修复
+1. 分区组只保留启用的分区，使配置中的 sections 与 order 完全对应。
+2. 布局检测实际分区输出；若 Shopify 未输出页头或页脚，则使用静态后备分区显示。正常时不重复显示。
+3. 后备页头即使没有配置分类块，也会显示 Holiday、New & featured、Charms、Bracelets、Rings、Necklaces、Earrings、Gifts、Collections、All jewelry。手机菜单同样有分类。
+4. 页脚显示 SHOP、CUSTOMER CARE、LEGAL & POLICIES 等栏目。
+5. 隐私政策等链接优先使用主题编辑器中的覆盖链接，其次使用商店实际政策；没有政策时显示 Not published，避免链接到404。
+
+政策检查
+本次实际访问 panjewellry.com：Privacy policy 返回200；Refund policy、Terms of service、Shipping policy 返回404。请在 Shopify「设置 → 政策」补充并保存这三项正文，保存后页脚自动读取实际政策。若已有独立页面，可在主题编辑器 Jewelry footer 的对应 link override 绑定。
+主题ZIP能修改展示，不能创建商店后台政策正文。
+
+预览验证
+修复后本地检查覆盖：实际layout中的正常分区输出/空分区后备、无分类块的后备菜单、政策未配置及链接覆盖、320/390/768/1024/1440布局、图片、菜单/搜索、页脚、表单和商品滚动。
+Shopify CLI 3.86.1 Theme Check：0错误/0警告；设置检查：新增0项。预览仍为本地LiquidJS/Chromium渲染，Shopify表单/过滤器运行环境部分模拟，不能替代上传后的真实Shopify验证。请重点确认页头分类、手机菜单、页脚隐私政策；真实变体、购物车、订阅及结账仍需后台预览检查。
+
+原版在线页面确实没有输出页头和页脚；之前本地预览直接组合分区，未覆盖Shopify分区组载入。v2增加了对应配置和后备渲染检查。是否在真实Shopify环境完全恢复，需上传v2后确认，当前尚未修改线上页面。
+
+其他
+14张本地参考图片保留，四个宣传区默认仍为静态图片，可选上传商家视频。商品、价格、库存、政策来自Pan Jewellry；未复制参考站后台会员、积分或刻字系统。原主题和旧版交付包保留。
