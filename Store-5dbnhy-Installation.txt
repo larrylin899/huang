@@ -1,0 +1,55 @@
+5dbnhy-gq · Mindsparkl 参考首页主题
+目标：https://5dbnhy-gq.myshopify.com/
+参考：https://www.mindsparkl.com/
+基础：用户上传 Savor 4.4.0，原ZIP506文件完整性检查通过，原件保留。
+
+安装
+Shopify 后台 → 在线商店 → 主题 → 添加主题 → 上传 ZIP。
+选择 Store-5dbnhy-Mindsparkl-Reference.zip，不要解压，先作为未发布主题预览。
+检查实际页面和购物流程后，再由你自行发布。本次没有修改或发布在线主题。
+
+已包含
+• 紫色公告、白色导航，Home / Catalog / Contact，搜索弹窗、手机菜单、账户与购物袋入口。
+• 当前参考站的桌面/手机横幅本地打包；两张实际资源内容相同，分别支持后台覆盖。
+• Fashion & Accessories 与 Garden, Toys & Leisure 两组商品滑动区，桌面4列、手机2列。
+• 四项服务展示、紫色联系/信息/政策/订阅页脚及支付方式。
+• 自托管 Poppins 字体和官方 OFL 许可证。
+• 页头和页脚使用完整分区组；布局会检测是否实际输出相应内容，空白时采用静态分区后备。后备页头即使没有分类块，也显示默认 Home/Catalog/Contact。
+• 商品标题、价格、变体、库存与商品链接来自目标商店。商品页和交易功能保留 Savor，字体和配色统一调整。
+
+主题编辑器
+Reference store header：上传本店Logo、填写显示店名、编辑公告和导航。未填写显示店名则读取shop.name，目前公开店名为 My Store，未擅自改为参考站名称。
+Reference campaign banner：替换桌面/手机横幅及链接。
+Reference product grid：每组可选择真实商品、集合、标题和 View all 链接。没有商品/集合时不会伪造商品；编辑器会显示选品提示。
+Reference services：四项图标、标题及说明均可编辑。
+Reference store footer：补充菜单、订阅文字和政策链接覆盖。联系邮箱读取商店实际邮箱；没有邮箱时显示联系提示。
+
+商品清单
+参考首页9个位置中找到2个同handle商品，其余7个用目标店铺中已验证可访问的同类别商品替换，没有导入竞争商店库存。
+1 Smart Bluetooth sunglasses → Photochromic Cycling Sunglasses（替换）
+2 Cat-eye sunglasses → Bape SUNGLASSES #14 MENS（替换）
+3 HD Reading Glasses → Tortoiseshell Reading Glasses（替换）
+4 No Buckle Belt → No Buckle Belt（同handle）
+5 Summer Sleeveless Mini Dress → Free-Flow 3-in-1 Tummy Control Athletic Dress（替换）
+6 High-Pressure Water Spray Gun → Powerful High-Pressure Water Gun for Car Cleaning（替换）
+7 Artificial Morning Glory Vine → Fall Porch Faux Flower Bundles（替换）
+8 Four Seasons Evergreen Grass Seed → grass-seed-2-2-5（同handle）
+9 Brush Cutter Trimmer Head → Garden Weed Pulling Tool（替换）
+价格和图片继续读取你店铺的数据，因此不会与参考站所有商品、价格完全一致。若后续上架同款，请在主题编辑器更换对应选品即可。
+
+政策及优惠
+政策链接优先使用你填写的覆盖地址，其次使用真实shop政策。未发布的政策会显示 Not published，而不是跳入404。政策正文需要在Shopify「设置 → 政策」保存，主题ZIP无法创建后台正文。
+横幅图片含“UP TO 50% OFF”，按用户指定参考视觉保留。发布前请确认该活动适用于实际商品，或上传自己的横幅。卡片折扣根据本店最低价变体及该变体compare_at_price计算；不会套用参考店价格。
+公告与服务文案没有复制参考店“满49免邮、24/7支持、全球配送、100%满意”等未经本店确认的承诺。商品标题沿用本店原始商品内容。
+没有复制参考店邮箱、店名、销量数据或后台捆绑销售插件。
+
+检查结果
+ZIP必要文件与完整性通过。
+设置ID、枚举、范围与分区引用检查：原始0项、新增0项。
+Shopify CLI3.86.1 Theme Check：原始148错误/3警告；改版148错误/3警告。按文件/规则/级别/消息比较，没有新增问题。原主题有133项ValidSchema、8项UnknownFilter等旧检查器不识别/已有问题，还包含其他原始标记/JSON问题；不能称整套Theme Check通过。
+Chromium/LiquidJS通过320/390/768/1024/1440px无横向溢出、9个真实商品、图片解码、商品滑动、搜索、菜单/Escape、订阅邮箱校验、减少动态效果、对应最低价变体折扣。另测试了实际布局中的正常分区输出与空分区后备路径。
+
+预览和实际运行的差别
+预览使用真实商店商品快照和本地横幅，但Shopify的图片/金额过滤器、newsletter表单、政策/联系/支付运行环境有本地替代。预览不是Shopify真实店铺截图，不能证明实际后台渲染和交易全部可用。
+上传后请重点确认：页头分类、手机菜单、页脚政策、横幅、选定商品、变体和价格、加入购物车、数量修改、订阅提交、账户与结账。尚未进行真实Shopify购物车/订阅/结账验证。
+本版为参考首页与全局装修，保留Savor商品/搜索/购物车的主要结构；未复刻参考站所有页面、第三方应用及国家/语言选择器。Shopify结账不由主题ZIP复制。
