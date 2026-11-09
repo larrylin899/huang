@@ -1,0 +1,90 @@
+Waysale · Pink DIY Print 参考风格主题
+目标：https://waysale.shop/
+参考：https://pinkdiyprint.com/
+基础：你上传的 Atelier 4.4.0 ZIP（506文件，原件完整保留）。
+
+安装
+Shopify → 在线商店 → 主题 → 添加主题 → 上传 Waysale-PinkDIY-Reference.zip。
+不要解压，不要覆盖当前在线主题。先作为未发布主题预览，检查所有页面和真实购物流程，再自行发布。
+本次只制作可上传文件，没有修改在线店铺、下单或发布主题。
+
+已制作
+• Waysale 白色页头，Home、All Products、Hot Sale、Commemorative coins、24-Day Countdown Calendar、Blind Box、Christmas ornaments、Home Decor、Garden & Outing、ABOUT US 分类导航。
+• 参考站两张节日与家居横幅本地打包，支持后台替换。
+• 紫色滚动信息条，支持暂停和减少动态效果。
+• 两组商品区，每组9件本店真实商品；桌面三列、手机单列，对照参考站当前布局。
+• 三张可编辑礼品介绍卡、品牌/价值介绍、紫色联系和政策页脚。
+• Poppins 本地字体与官方 OFL 许可证。
+• 页头/页脚分区组与order完整对应；实际layout检查是否输出标记，空白时采用静态分区后备。后备导航即使没有分类块也能显示默认类别。
+
+调整位置
+Gift store header：上传Waysale Logo、设置店名、编辑导航及对应集合/链接。默认店名从shop.name读取。
+Gift campaign image：分别修改两张横幅与目标链接。
+Gift scrolling messages：修改滚动文案。
+Reference product grid：每组选择商品、集合、标题和 View all 链接。
+Gift editorial cards / Gift story and values：修改礼品介绍与品牌内容。
+Gift store footer：修改品牌介绍、联系文案、真实服务时间、附加菜单与政策覆盖链接。
+
+商品和导航
+没有导入参考站库存、价格或评价。18个商品位置中2个同handle商品可在Waysale访问，其余16个用本店同类别商品替代。详细清单见文末。
+商品图片、标题、价格、库存和变体继续读取Shopify真实数据；最低价变体的compare_at_price用于计算折扣，不能套用其他变体的比较价。
+只发现公开 Home page 集合。主题ZIP不会自动创建礼品集合。分类链接优先使用手动链接、指定集合、同名集合；否则转到本店对应关键词搜索。
+Hot Sale 默认链接所有商品的best-selling排序，未自动建立促销集合，也不会自动设置折扣；请在编辑器将该入口绑定实际促销集合。ABOUT US 优先使用已有about-us页面，否则定位到首页品牌区。
+
+政策和联系
+实际链接读取本店政策或你配置的覆盖地址，未发布的政策显示 Not published，避免链接到错误页面。政策正文需要在Shopify「设置 → 政策」保存，主题ZIP不能创建后台内容。
+联系邮箱读取shop.email，不使用参考站邮箱。预览里的联系方式来自Waysale公开联系政策页面；实际Shopify输出以商店设置为准。
+
+保留的差异
+参考站“10,000+客户”、Trustpilot4.8评分、第三方客户评价与94%/92%等数据没有作为Waysale真实数据复制；对应位置改为可编辑的礼品介绍卡和定性品牌内容。
+首组标题未宣称“Top 10 best-selling”，因为没有商店销量排名依据；当前参考站实际展示9件商品，本版也选9件。
+保留Waysale品牌和本店商品；没有复制参考站Logo、邮箱、支持时间或服务保证。国家/语言选择器、第三方应用、自动捆绑优惠及完整后台功能未复制。
+商品页、搜索页、购物车主要保留Atelier结构，套用Poppins字体与紫色配色。Shopify结账不由此ZIP复制。参考风格首页不等于整站所有页面及应用完全一致。
+
+检查
+• ZIP完整性、必需文件及分区组顺序检查通过。
+• 设置/枚举/范围/分区引用检查：原始0项，新增0项。
+• Shopify CLI3.86.1 Theme Check：原包148错误/3警告，改版148错误/3警告，按相对文件/规则/级别/消息比较无新增。原Atelier4.4.0包含旧检查器不识别的schema/filter及已有标记/JSON问题，不能称整套Theme Check通过。
+• Chromium/LiquidJS：320/390/768/1024/1440无横向溢出、18件商品/图片解码、桌面三列/手机单列、菜单/Escape、搜索、滚动条暂停、减少动态效果、同价变体折扣、实际layout正常分区及空白分区后备通过。
+
+预览限制与上传后检查
+PNG是本地渲染的自定义区域，包含实际本店商品快照和本地横幅；Shopify图片/金额过滤器、支付图标、表单/政策运行环境有本地替代，不是实际Shopify预览截图。
+上传后务必确认：页头分类、手机菜单、页脚政策、横幅、商品选择/价格/变体、加入购物车、修改数量、搜索、账户及结账。本次未进行真实Shopify交易流程验证。
+
+商品清单（参考商品路径 → 本店选品）
+1. pueblo-del-dia-de-muertos-2026-collectible-countdown
+   → Day of the Dead Advent Calendar 2026 - 24-Day Festive Countdown, Acrylic Charms Blind Box [同类别替代]
+2. cardinal-christmas-24-day-countdown-calendar
+   → Stained Glass Cardinal Advent Calendar 2026 - 24-Day Festive Countdown, Acrylic Charms Blind Box [同类别替代]
+3. dia-de-muertos-professions-2026-collectible-countdown
+   → Day of the Dead Costume Advent Calendar 2026 - 24-Day Festive Countdown, Acrylic Charms Blind Box [同类别替代]
+4. 2026-music-advent-calendar-24-musical-instrument-christmas-tree-miniatures
+   → Country Guitar Life Advent Calendar 2026 - 24-Day Festive Countdown, Acrylic Charms Blind Box [同类别替代]
+5. lighthouses-of-america-advent-calendar-2026
+   → CHRISTMAS KICKOFF 50% OFF - Seaside Christmas Village Advent Calendar 2026 - 24-Day Festive Countdown, Acrylic Charms Blind Box [同类别替代]
+6. american-trucks-advent-calendar-2026
+   → Construction Vehicles Fleet Advent Calendar 2026 - 24-Day Festive Countdown, Acrylic Charms Blind Box [同类别替代]
+7. maine-coon-jobs-advent-calendar-2026
+   → 🌲Christmas Gift--Purrfect Christmas – Cat Lovers Advent Calendar 2026 [同类别替代]
+8. chihuahua-jobs-advent-calendar-2026-24-day-collectible-miniatures
+   → Firefighting Dogs Advent Calendar 2026 - 24-Day Festive Countdown, Acrylic Charms Blind Box [同类别替代]
+9. festive-countdown-acrylic-charms-blind-box
+   → Day of the Dead Ofrendas Advent Calendar 2026 - 24-Day Festive Countdown, Acrylic Charms Blind Box [同类别替代]
+10. christmas-ornament-that-can-hold-money
+   → 🔥Last Day 50% OFF🎄Crystal Acrylic Money Holder Ornament [同类别替代]
+11. %F0%9F%94%A5250th-anniversary-santa-flying-over-the-white-house-on-a-snowy-night
+   → Christmas Door Cover - Stretch Fit Santa & Reindeer Door Decoration with 4-Side Elastic Edges🎅 [同类别替代]
+12. christmas-landscape-decorations
+   → ⏰ Limited anniversary edition✨Christmas landscape decorations [同handle商品]
+13. 2026-america-250th-anniversary-royal-nutcracker-king-christmas-ornament
+   → Nutcracker Door Hanging Christmas Decoration [同类别替代]
+14. 250th-anniversary-black-gold-nutcracker-king-ornament
+   → ✨250th Anniversary Nutcracker Christmas Countdown Calendar Blind Box Set [同类别替代]
+15. vintage-motorcycle-christmas-ornaments
+   → Last Day Promo: 50% OFF🎸🦋Queen of Country Music Memorial Commemorative Ornament [同类别替代]
+16. flamingo-christmas-ornaments-stained-glass-style
+   → Button Christmas Tree Decoration [同类别替代]
+17. white-house-250th-anniversary-commemorative-snowflake-ornament
+   → 🔥Last 30pcs✨⏰ Limited anniversary edition✨49% OFF!🔥White House 250th Anniversary Commemorative Snowflake Ornament [同handle商品]
+18. golden-retriever-christmas-ornaments-6-heartwarming-holiday-designs-for-dog-lovers
+   → 🎅 2026 Christmas Gift 50% Off--Cardinal Christmas Ornament –  Red Bird Holiday Keepsake, Meaningful Memorial Gift for Family & Loved Ones [同类别替代]
