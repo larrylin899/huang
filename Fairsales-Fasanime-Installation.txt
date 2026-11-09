@@ -1,0 +1,82 @@
+Fairsale · Fasanime 参考风格主题
+目标：https://fairsales.shop/
+参考：https://fasanime.com/
+基础：用户上传fairsales.zip，Tinker4.4.0，原ZIP506文件完整保留。
+
+安装
+Shopify后台 → 在线商店 → 主题 → 添加主题 → 上传 Fairsales-Fasanime-Reference.zip。
+直接上传ZIP，不要先解压。先作为未发布主题预览，确认页面和真实购物流程后再自行发布。本次没有修改或发布线上主题。
+
+已制作
+• Fairsale品牌白色导航，HOME、Best Seller、Women’s leggings、Sportswear、Clothing&Accessories，手机菜单、搜索、账户及购物袋入口。
+• 参考站桌面/手机首屏和第二张运动服饰横幅，3张本地图片。
+• 紫色滚动信息条，支持暂停和减少动态效果；文字可编辑。
+• Sportswear8个、Sports Bra4个、Leggings4个、Men’s tops4个商品位置，全部匹配到Fairsale同handle真实同款，共18件不同商品。
+• 对照参考站：桌面四列网格，手机单列滑动；商品选项按钮进入实际商品页选择变体。
+• 紫色购物说明表格、四项服务展示、订阅区与帮助/政策/关于本店页脚。
+• Poppins字体本地打包，附官方OFL许可证。
+• 页头/页脚完整分区组，实际layout检测输出标记；分区为空时使用静态后备，后备导航无分类块时也会显示默认入口。
+
+主题编辑器
+Activewear store header：修改公告、显示店名、上传Logo、编辑菜单和实际集合/链接。
+Activewear campaign image：替换桌面/手机图片与链接。
+Reference product grid：每组可修改选定商品、集合、标题和View all链接。
+Activewear messages：修改滚动条内容。
+Shopping information：修改购物说明标题和文案。
+Reference services：修改服务图标、名称与文字。
+Activewear newsletter：修改订阅标题、说明和按钮。
+Activewear store footer：修改本店简介、附加帮助菜单、实际政策覆盖链接。
+
+商品与链接
+四组商品位置共20个，全部已通过本店公开product.js核实；其中Crossback Sports Bra、Glossy Leopard Print High-rise Leggings在不同分组重复展示，因此为18件不同商品。
+没有导入参考站库存或价格。商品标题、图片、价格、变体和库存继续动态读取Fairsale；最低价变体及其compare_at_price用于计算卡片折扣。本店价格不一定与参考站相同。
+当前公开集合只有Home page。分类优先使用手动链接/选中集合/同名集合，否则回退到本店商品关键词搜索；View all默认所有商品，Best Seller默认本店best-selling排序。
+建议在Shopify后台建立Sportswear、Sports Bra、Leggings、Men’s tops等实际集合并绑定，避免所有商品页包含现有其他品类。主题ZIP不能自动创建后台集合。
+
+商店事实与参考站差异
+保留Fairsale品牌、实际邮箱和政策，没有复制Fasanime的店名Logo、公司注册地址、联系邮箱或“只在Fasanime官网销售”的独家声明。
+原参考站的品牌优劣比较区改为购物说明表格，指向本店实际尺码/配送/退货信息，没有虚构与其他商家的质量比较。
+没有把“买2件减10%、买3件减15%、满79美元免邮、30天退款、24/7支持”等未经本店确认的承诺写成有效活动。当前滚动条与服务文字为中性可编辑内容。
+主题不自动创建Shopify折扣；如果你确实要开展参考站的优惠，请先在后台建立实际优惠及政策，再修改相应文字。
+页脚政策读取本店政策或手动覆盖地址。未发布的政策显示Not published；正文需在Shopify「设置 → 政策」保存。
+商品页、搜索、购物车主要保留Tinker原生结构，并统一字体、配色和按钮。结账由Shopify管理。未复制参考站所有应用、国家选择器、弹窗或全部页面，所以不是后台系统及整站内容完全相同。
+
+验证
+ZIP必需文件、完整性、首页/页头/页脚分区顺序通过。
+设置、引用、枚举/范围检查：原始0项，新增0项。
+Shopify CLI3.86.1 Theme Check：原始148错误/3警告，改版148错误/3警告；按相对文件/规则/级别/消息比较无新增。原Tinker4.4.0存在旧检查器不能识别的schema/filter及已有标记/JSON问题，不能称整套检查通过。
+Chromium/LiquidJS通过320/390/768/1024/1440无横向溢出、20商品位置、图片解码、实际layout正常/空分区后备、菜单/Escape、搜索、手机轮播、滚动条暂停、订阅邮箱校验、减少动态效果、同价变体折扣。
+
+预览限制
+PNG使用真实本店商品快照和参考横幅，但Shopify图片/金额过滤器、订阅表单、支付/政策运行环境有本地替代，不是实际Shopify后台预览截图。预览联系方式来自本店公开联系政策，实际页面以shop.email为准。
+上传未发布主题后，请重点检查页头/手机菜单、页脚政策、每个分类与View all链接、商品图片/变体/价格、加入购物车、修改数量、订阅提交、账户与结账。本次尚未做真实Shopify交易流程验证。
+
+同款商品清单
+
+Sportswear
+• Bubble Butt Sweatpants → rupohy-bubble-butt-sweatpants-uniform-blue
+• Front Zip Backless Short Jumpsuits → rupohy-front-zip-backless-short-jumpsuits
+• Crossback Sports Bra → rupohy-crossback-sports-bra
+• Glossy Leopard Print High-rise Leggings → rupohy-glossy-leopard-print-high-rise-leggings
+• Long Sleeve Fitness Top → rupohy-long-sleeve-fitness-top
+• Leopard Print Yoga Outfit Set → rupohy-leopard-print-yoga-outfit-set
+• Lace-up Backless Jumpsuit → rupohy-lace-up-backless-jumpsuit
+• High-Stretch Backless Activewear Set → rupohy-high-stretch-backless-activewear-set
+
+Sports Bra
+• Deep V-neck Short Sleeve → rupohy-deep-v-neck-short-sleeve
+• Halter Sports Bra → rupohy-halter-sports-bra
+• Crossback Sports Bra → rupohy-crossback-sports-bra
+• Crossback Sports Bra → rupohy-crossback-sports-bra-1
+
+Leggings
+• High Stretch Yoga Pants With Pockets → rupohy-high-stretch-yoga-pants-with-pockets
+• High-Elasticity Leggings with Pockets → rupohy-high-elasticity-leggings-with-pockets
+• Glossy Leopard Print High-rise Leggings → rupohy-glossy-leopard-print-high-rise-leggings
+• Faux Leather Corset Leggings → rupohy-faux-leather-corset-leggings
+
+Men’s tops
+• Men's Athleisure T-shirt - Blue → rupohy-mens-athleisure-t-shirt-blue
+• Men's Sports Quick-drying Tops - Black → mens-sports-quick-drying-tops
+• Men's Sports Quick-drying Tops - White → rupohy-mens-sports-quick-drying-tops-white
+• Men's Athleisure T-shirt - Grey → rupohy-mens-athleisure-t-shirt-grey
