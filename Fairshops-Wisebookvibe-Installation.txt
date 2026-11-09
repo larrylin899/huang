@@ -1,0 +1,134 @@
+Fairshop / Wisebookvibe 参考风格主题
+目标：https://fairshops.shop/
+参考：https://www.wisebookvibe.com/
+基础：用户上传fairshops.zip，Dwell4.4.0，原ZIP506文件完整性通过，原件保留。
+
+安装
+Shopify → 在线商店 → 主题 → 添加主题 → 上传 Fairshops-Wisebookvibe-Reference.zip。
+直接上传ZIP，不要先解压。先作为未发布主题预览，不要立即替换在线主题。
+检查页面和真实购物流程后，由你自行发布。本次没有修改或发布线上店铺。
+
+已包含
+• 深红公告、白色Fairshop品牌导航、Home / All Products / Track Your Order、分类下拉、手机菜单、搜索与购物袋入口。
+• 参考站桌面/手机首屏、六个分类的桌面/手机图片、两组活动横幅的桌面/手机图片、品牌故事背景桌面/手机图，共20张本地图片。
+• CLASSIFICATION分类拼图：桌面三列高低错落六宫格，手机两列方形卡片。
+• 三组商品轮播，每组12个位置；桌面4列、手机1列。选择按钮跳转实际商品页面，由原生主题选择变体。
+• 节日品牌故事、实际联系/政策链接与Shopify订阅表单页脚。
+• 官方Google Fonts Open Sans可变字体及OFL许可证本地打包。
+• 页头和页脚分区组完整对应order；layout验证输出标记，空白时采用静态分区后备。后备页头即使没有分类块，也显示默认入口。
+
+主题编辑器
+Holiday storefront header：修改公告、上传Logo、编辑导航和覆盖链接。All Products默认有节日分类下拉，可绑定实际Shopify菜单。
+Holiday campaign image：更换首屏或活动横幅，选择桌面/手机覆盖图及对应集合/链接。
+Holiday category mosaic：逐一绑定6个真实分类集合，修改标签及图片。
+Reference product grid：修改各组商品列表、集合、标题与View all链接。
+Holiday brand story：修改标题、介绍文字。
+Holiday store footer：修改订阅文字、附加关于我们菜单、政策链接覆盖。联系邮箱读取shop.email。
+
+商品与分类
+当前读取的Fairshop商品未找到可确认的参考站同款，因此使用本店节日相关商品替代，并未复制参考站库存或价格。
+3组共36个位置，涉及28件不同本店商品，部分商品出现在不同分组。每个位置的映射见文末，可在后台换成后续上架的同款。
+卡片的标题、图片、价格、变体、库存仍读取本店Shopify数据。折扣依据最低价变体及该变体compare_at_price计算，不拼接其他变体的比较价格。
+目前公开集合只有Home page。ZIP不会自动创建集合；分类链接优先手动URL→选中集合→同名集合→本店关键词搜索。请在后台建立实际节日分类并绑定。
+
+追踪订单、政策与联系
+Track Your Order优先使用已有track-your-order页面；没有页面时，转到本店账号订单入口，账号不可用则转联系区。没有复制参考站的第三方物流应用。若已有追踪应用，可在对应导航块设置链接覆盖。
+ABOUT默认定位首页故事；如有独立关于我们页面，可通过页脚附加菜单使用。
+政策优先使用实际商店政策或手动覆盖地址；未发布时显示Not published，不伪造正文。后台政策需在Shopify「设置 → 政策」保存。
+预览中联系数据来自Fairshop公开联系政策页面；实际主题使用后台shop.email，不复制cs@wisebookvibe.com。
+
+范围与差异
+这是参考首页与全局样式改版，不是完整复制参考站后台、第三方应用或所有页面。品牌保持Fairshop，商品和价格使用本店真实数据。
+没有复制参考站“满39美元免邮”等未经本店确认的承诺；公告改为可编辑的节日欢迎文案。
+分类与商品版式、20张图片按参考配置制作；两组商品标题根据本店实际选品调整为Christmas Keepsakes & Decor、Holiday Favorites。
+SELECT OPTION按钮打开真实商品页，未复制参考站非Shopify平台的快捷选项弹窗。原生Dwell商品、搜索、购物车和结账流程保留，统一字体、配色和按钮样式。Shopify结账不由此ZIP复制。
+
+验证
+• ZIP完整性与必要文件通过；页头/页脚/首页分区顺序完整。
+• 设置、引用、枚举/范围检查：原始0项，新增0项。
+• Shopify CLI3.86.1 Theme Check：原始148错误/3警告，改版148错误/3警告；按相对文件/规则/级别/消息比较，没有新增问题。原主题存在旧检查器不能识别的schema/filter及已有标记/JSON问题，不能称整套Theme Check通过。
+• Chromium/LiquidJS：320/390/768/1024/1440无横向溢出，36件商品位置、所有图片解码、分类6宫格、实际layout正常/空分区后备、下拉菜单/Escape、手机菜单、搜索、轮播、订阅邮箱校验、减少动态效果、对应变体折扣通过。
+
+预览限制
+PNG为本地渲染的自定义区域，使用真实商品快照与实际本地图片；Shopify图片/金额过滤器、表单/支付/政策运行环境有本地替代，不是Shopify后台真实预览截图。
+上传后请检查：页头分类/下拉/手机菜单、页脚政策、分类集合、各横幅链接、真实商品与变体、加入购物车、数量、订阅提交、账号/订单入口及结账。尚未做实际Shopify交易流程验证。
+
+商品替换清单（参考标题 → Fairshop实际商品）
+
+第1组
+1. 🎅Christmas String Lights🎅 - 🎄Led Bulb String Lights🎄
+   → 🌲Christmas Lighted Centerpiece with Flameless Candle Glow
+2. 🎁❤️ Forest Animal Acorn Ornaments – Cozy Forest Christmas Ornaments （ 2D ）
+   → Mini Resin Nostalgic Christmas Tree Lamp
+3. 🎄 35" Christmas Lighted Norfolk Pine Branches
+   → Christmas LED Wall Decorations
+4. 🎁Christmas Mini LED Candle Lanterns
+   → 🎄MerryCascade Glowing Christmas Door Hanger | 6 Festive Lighted Designs with Warm Glow, Dimensional Details & Space-Saving Vertical Décor ✨
+5. Christmas Runner Rug
+   → Lighted Christmas Woodland Wall Decor
+6. Christmas Tablecloth
+   → Glowing Christmas Door Hanger
+7. Santa Hat Overlay for Tesla Emblem, Reusable!
+   → Christmas DIY Diamond Painting Ornaments
+8. Flameless Taper Candles 🕯
+   → DIY Beaded Christmas Tree Craft Kit
+9. ⛄Christmas Snow Globe Lanter🎅
+   → Mini Christmas Nativity Set in Tin Box
+10. 🎉🎉Solar Christmas tree lights
+   → 🔥Christmas Gift Card Book
+11. 🎁🎄Retro Hand-Painted Tabletop Christmas Trees (⏰Limited Quantities Available)
+   → Christmas Mini Pie Mold Collection
+12. 🎅Tabletop Christmas Ornaments【3ct】🔔🎁(Plastic, diameter:10cm)
+   → Christmas Gift Bags
+
+第2组
+1. 🎄Triple Tree Topper Shelf for Christmas Tree
+   → Light Up Christmas Hanging Ornament
+2. 👻👻Flameless Candles with Magic Wand Remote 🔥
+   → 🏆Hot Sale⚡DIY Five-Pointed Star Diamond Painting Christmas Tree Topper
+3. Starlight Cascade Tree Lights
+   → Christmas-themed Magnetic Stickers
+4. 🎅🔥8 Modes 100-600 Christmas LED Firefly Twinkle String Lights
+   → Christmas Diamond Painting Light Wreath DIY Kit
+5. 🔥🎄Christmas decoration fairy lights🎄
+   → DIY Beaded Christmas Tree Craft Kit
+6. 💥ON SALE💥10 Pack LED Flameless Taper Candles with Remote & Removable Clips🕯️✨
+   → Mini Resin Nostalgic Christmas Tree Lamp
+7. 🎄Christmas Tree Led Candles with Clear Crystal Ball Hook
+   → Lighted Christmas Woodland Wall Decor
+8. 🎅Wooden Dwarf Christmas Tree Ornaments Set (12pcs)
+   → Mini Christmas Nativity Set in Tin Box
+9. Christmas Tree Ornament
+   → Original design Festive Christmas Antler Hat
+10. 🎁🎄Early Christmas Promotion⭐ Copper Wire Firecracker Light String
+   → Christmas DIY Quilted Handbag Craft Kit
+11. 🌟3D Printed Tree Top Star Rotating Christmas Tree Decoration Plug-in
+   → Handmade Waterfall Christmas Gift Card Booklet
+12. 🎄 3D Printed Christmas Tree Ornament Set Gift Pack
+   → Christmas House Tote Bag
+
+第3组
+1. 🔥Christmas Early Discount🎅🎉 2D Christmas door decoration banner with hanging hole design(flat pattern)
+   → 🎅 Christmas Door Cover
+2. 🎄🎅Christmas Glove Wreath for Front Door with Artificial Pine Branches
+   → DIY Christmas Tree Door Hanging Kit
+3. 🎄Mini Christmas Wreaths✨Maximum Holiday Magic, Instant Festive Charm & Versatile Decor! 🎀
+   → Glowing Christmas Door Hanger
+4. Crashing Reindeer & Santa Set
+   → Christmas Gift Bags
+5. 🔥Window Hanging Decor for Home & Office
+   → 🎄24 Days Of Christmas Village Friends Advent Calendar | 24 Unique Miniature Characters, Shops & Holiday Collectibles for a Complete Festive Village ✨
+6. ⛄Christmas Artificial Cypress Leaf Vine Wreath🎄（1.8m）
+   → 💯 🐶 24-Day French Bulldog Christmas Advent Calendar | 24 Unique Collectible Frenchie Characters with Different Outfits, Personalities & Daily Holiday Surprises 🎄✨
+7. 🎄New Year Window Stickers
+   → Christmas Dumpling Squishy Advent Calendar – 24 Surprise Toys
+8. 🎄Christmas Window Hanging Lights 🌟
+   → 24-Day Capybara Christmas Advent Blind Box
+9. 🎄🌈Christmas Tree Sun Catcher（ 2D Acrylic ）
+   → Christmas Decoration Cartoon Chair Cover
+10. Early Christmas Sale-🔥Christmas Garage Door Decoration
+   → Christmas Cookie Stamp Set
+11. 🌟Christmas Front Door Decoration
+   → 🔥Christmas Gift Card Book
+12. 🎅 Christmas Themed Magnetic Sticker
+   → Christmas-themed Magnetic Stickers
