@@ -1,0 +1,53 @@
+Three Jerseys · Football Reference
+目标：https://threejerseys.com/
+参考：https://www.wearefootball.us/
+基础：你上传的 wearefootball-us-Football-Reference.zip，内部Horizon3.5.1，原ZIP454文件完整性检查通过，原件保留。
+
+安装
+Shopify → 在线商店 → 主题 → 添加主题 → 上传 ThreeJerseys-Football-Reference.zip。
+直接上传ZIP，不要解压。作为新的未发布主题预览，不要立即替换当前在线主题。
+确认页面及真实购物流程后，由你自行发布。本次没有修改或发布线上商店。
+
+已制作
+1. 清理原包内的Five Sports公告与品牌介绍，改为Three Jerseys。
+2. 新增Three Jerseys branding全局设置，用于原生页头文字Logo与页脚版权；默认THREE JERSEYS，可在主题编辑器修改，也可上传本店图片Logo。
+3. 保留并检查已上传参考设计中的主横幅、6个球队、10个球员图片、球队滚动条、导航、服务区、品牌介绍、订阅区与政策页脚。图片均在主题本地assets中。
+4. 保留原生Horizon搜索、账户、购物车、商品变体和结账入口。
+5. 页脚优先使用你配置的Customer service菜单；未设置菜单时读取本店隐私、退款、配送、服务条款政策或手动覆盖地址。没有政策时仍显示相应栏目和Not published，避免整块空白或跳入404。
+6. 页头、页脚、首页分区组完整对应order，未保留未列入order的配置分区。
+
+后台调整
+全局Three Jerseys branding：修改文字店名；Logo and favicon：上传自己的Logo。
+Header / Football navigation：选择实际球队菜单、联系页等链接；默认Home page、SHOP BY TEAM、Contact Us。
+BV Football banner：替换桌面/手机横幅或链接。
+BV Categories：设置每个球队和球员的真实集合、图片或覆盖URL。
+BV Store services：修改真实配送、退货、客服、支付说明。
+Football brand story / BV Newsletter：修改关于我们和订阅文字。
+BV Footer：绑定客户服务/快速链接菜单；可填写4种政策的覆盖链接。
+
+商店数据与分类
+由于threejerseys.com仍被当前运行环境的网络代理拦截，未读取其实时商品、集合、店名、政策正文或应用配置。
+主题运行时仍读取目标Shopify商店的数据。没有导入、删除或修改任何商品、库存、价格、政策及订单。
+球队/球员入口优先使用你配置的链接或集合，其次同名集合，最后本店商品搜索。主题ZIP不能创建后台集合，分类未配置或无对应商品时搜索可能为空。
+政策正文需要在Shopify「设置 → 政策」保存，主题ZIP不能替后台创建正文。未发布政策会显示Not published。
+本包作为新的主题安装；你当前在线主题的应用块、特殊设置和个人配置不会自动迁移，请在预览时核对。
+
+网络状态
+www.wearefootball.us当前返回200，当前参考站仍使用该足球横幅、球队/球员布局及About/Newsletter/Policies结构。
+Three Jerseys域名已在环境配置草稿中，但运行策略尚未包含该域名，实际请求返回代理Tunnel403。若需要继续核验实时店铺，请在Edit environment审核/保存草稿，使threejerseys.com及www.threejerseys.com放行；可发布时再发布环境。本次没有重复保存相同域名。
+
+保留的差异
+保持Three Jerseys品牌与本店数据，不复制EverWear身份、参考店联系方式或后台应用。
+没有将参考站的买二送一、最高60%折扣、满100美元免邮、30天退款、24小时客服等未经本店确认的条件设置成有效优惠；公告和服务使用可编辑中性文案。若确有活动，请在Shopify配置真实折扣/政策后再修改文字。
+参考站原Eagles分类误用了Packers图片；本包使用Eagles图片保持标签与图像一致。
+此包为参考风格首页与Horizon全局装修，不是所有页面、应用与结账系统的完全复制。
+
+验证
+ZIP完整性与必要文件检查通过。
+Shopify CLI3.86.1 Theme Check：原包0错误/0警告；修正版0错误/0警告。
+设置/引用/枚举/范围检查：原有18项设置差异保留，新增0项。
+Chromium/LiquidJS本地检查通过320/390/768/1440无横向溢出、6球队/10球员、全部图片、导航与Escape、球队/球员入口、轮播、服务滚动、暂停、减少动态效果、订阅邮箱校验、集合自动匹配/链接覆盖及未发布政策显示。
+
+预览限制
+PNG为本地布局预览：自定义足球分区真实渲染，原生Horizon页头使用测试外壳，Shopify表单/过滤器/支付/政策运行环境部分模拟。预览不是threejerseys.com真实截图，也不证明原生交易流程已验证。
+上传未发布主题后，重点检查真实Logo/店名、页头分类与手机菜单、页脚政策、球队/球员集合、商品图片与价格、尺码/变体、加入购物车、数量修改、账户、订阅提交和结账。
