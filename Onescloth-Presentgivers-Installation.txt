@@ -1,0 +1,57 @@
+Onescloth · Presentgivers 参考风格主题
+目标：https://onescloth.com/
+参考：https://presentgivers.com/
+
+安装
+Shopify → 在线商店 → 主题 → 添加/导入主题 → 上传 Onescloth-Presentgivers-Reference.zip。
+上传ZIP原文件，不要解压。先作为未发布主题预览，确认实际商品、分类、政策及购物流程后自行发布。
+本次未登录Shopify后台，没有发布或修改线上店铺，没有导入商品、改变库存或创建集合/折扣/政策正文。
+此前的Oakmara和Fangearest版本均独立保留，请选择本包文件名。
+
+已制作
+基于你已确认的Shrine PRO1.9.0原主题，使用本次重新访问的Presentgivers当前页面与素材。
+米色背景、橙色滚动条、Poppins字体、白色导航；桌面/手机主横幅；6件商品3列/手机2列网格；装饰横幅；3张礼品分类卡；3个竖版视频；1个图文视频；价值说明；3列政策/联系/订阅页脚。
+2张主横幅、3张分类图、1张装饰图、4张视频封面共10张图片，及2个字体均已下载到主题本地。默认主图和分类图片与当前参考站对应。
+4个参考视频地址使用远程MP4，已验证HTTP206、video/mp4和Range响应；视频有原生播放控件，默认不自动播放，preload=none，用户播放时加载。4个完整视频未打包进ZIP，生产访问依赖外部地址。
+可在主题编辑器上传本店视频覆盖参考URL；上传视频优先。
+保留Shopify原生商品变体、数量、加购、购物车、账户及结账入口，使用米色/橙色全局配色。
+页头搜索、手机菜单、Escape关闭、滚动公告暂停/减少动态效果、邮箱格式校验及政策缺失显示已实现。
+
+真实商品与参考站差异（请注意）
+Onescloth此前读取的229件商品主要为球衣，参考站的礼品不在本店库存中。
+本包预选6件本店真实球衣，商品图片/标题/库存/价格从Shopify实际数据读取；没有把参考站的礼品图片做成虚构商品或导入库存。
+商品区标题暂为Featured Picks 🔥，避免把未匹配的商品写成参考站同款礼品榜单。可在编辑器PG Bestseller grid更改标题、选择新商品或绑定真实集合。
+如果你准备把店铺改为礼品销售，请先在Shopify后台建立实际礼品商品、价格和库存，再在商品区选择对应商品。主题装修本身不能创建库存。
+3个分类保留Advent Calendar/Christmas Ornaments/Emotional Support Gifts参考名称及图片；若本店没有这些商品，默认本店搜索可能无结果。
+PG Gift categories可以绑定集合或覆盖URL。没有手动配置时尝试advent-calendar/christmas-ornaments/emotional-support-gifts集合，再使用本店搜索。
+主横幅、装饰横幅、View all和图文按钮默认进入本店全部商品。
+源视频为礼品展示示例，标题标为Gift-Opening Inspiration，不代表本店顾客评价或本店已售出这些礼品。
+页面品牌/版权为ONESCLOTH，不使用参考店联系方式、公司身份、客服时间或未经确认的10,000+顾客、固定50%折扣、统计百分比等承诺。
+参考图文结构已保留，文案使用可编辑中性内容。未复制参考站后台应用、完整商品目录及结账系统。
+
+主题编辑器入口
+PG Contact bar：顶部读取本店shop.email；未配置时显示ONESCLOTH欢迎文字。
+OC Header：本店店名/Logo、自定义主菜单。电脑默认和参考站一样以分类导航为主，手机显示本店文字品牌及菜单。
+PG Gift banner：替换电脑/手机主横幅及链接。
+PG Orange ticker：修改3条滚动文案，默认不使用参考站客户统计。
+PG Bestseller grid：选择最多12件实际商品，默认6件；标题、集合、数量、View all链接。
+PG Decoration banner：装饰横幅图片/链接。
+PG Gift categories：3张分类卡的名称、图片、集合、链接、搜索关键字。
+PG Gift videos / PG Gift story：本店上传视频、远程URL、说明及文案。
+PG Gift values：说明和图标，无虚构统计百分比。
+PG Gift footer：信息菜单、联系说明、店名、邮箱覆盖、隐私/退款/配送/服务条款和知识产权页面URL。
+
+页脚政策
+默认显示ABOUT US、CONTACT US、FAQ、RETURN POLICY、PRIVACY POLICY、SHIPPING INFORMATION、TERMS OF SERVICE、INTELLECTUAL PROPERTY RIGHTS。
+4种主要政策优先使用覆盖URL，否则读取本店Shopify实际政策；未发布时保留栏目并标为Not published。
+FAQ和知识产权页面未配置时同样标为Not published。ABOUT/CONTACT优先实际页面，否则落到主题介绍/联系区。
+请在Shopify「设置 → 政策」保存真实正文，或在页脚填写本店自定义页面地址。主题ZIP不能在后台自动创建政策。
+联系邮箱优先页脚中你填写的地址，否则读取shop.email；请核对是否适合对外展示。
+订阅按钮只写Subscribe，没有承诺未经配置的优惠码。
+
+检查和预览
+Theme Check：原Shrine包0错误/69警告；最终0错误/70警告。无新增错误；新增1条RemoteAsset性能警告，来自可选远程视频，未隐藏或关闭检查。
+本地LiquidJS/Chromium覆盖320/390/768/1024/1440无溢出、电脑/手机主图切换、6件真实商品卡、3分类、4视频封面、搜索/菜单/Escape、公告暂停/减少动态效果、邮箱格式校验、URL覆盖及缺少政策栏目显示。
+PNG是本地模拟布局预览，商品图片和价格来自本店商品快照。Shopify过滤器、表单、支付图标和政策上下文部分模拟，不是onescloth.com实际截图。
+视频仅验证远程Range/格式和页面控件，没有完整播放所有外部视频；实际播放、真实订阅提交、原生变体、加入购物车、数量修改、账户与结账需上传后核验。
+本包是参考风格装修；因品牌、实际商品与后台数据不同，不是整站全部内容一模一样复制。
