@@ -1,0 +1,52 @@
+Onescloth · Retrosparkss（Retro Spark）参考风格主题
+目标：https://onescloth.com/
+参考：https://retrosparkss.shop/
+
+安装
+Shopify → 在线商店 → 主题 → 添加/导入主题 → 上传 Onescloth-Retrosparkss-Reference.zip。
+上传ZIP原文件，不要解压。先作为未发布主题预览，再由你确认并发布。
+本次没有登录或发布Shopify主题，没有改变库存、创建商品、集合、政策或订单。此前其他装修版本独立保留。
+
+已制作
+基于你确认使用的Shrine PRO1.9.0主题，参考当前可访问的Retro Spark首页结构重做白底、黑色细节、Inter字体和圆角按钮。
+顶部欢迎栏、品牌/分类导航、复古鞋店大横幅、两组商品横向列表、左右图文区、五张拼接分类卡、居中订阅及简洁政策页脚。
+1张主横幅、1张图文图、5张分类图片共7张参考图片及Inter字体均下载到本地assets，展示不依赖参考站外链。
+主横幅保留Comfort meets classic style及Shop all按钮；本店文字品牌ONESCLOTH，可在OC Header更改或上传本店Logo。
+两组商品栏采用桌面4列可视、手机横向滑动布局；前后按钮、悬停图片、Choose按钮保留本店商品页入口。
+保留Shopify原生商品变体、数量、加购、购物车、账户、搜索和结账。启用账户时页头显示Account入口。
+没有复制参考店名、联系方式、虚构评价或未经本店确认的折扣/配送承诺。
+
+商品及分类差异
+本店已有商品快照主要为球衣；参考站展示的是鞋类，不会通过主题ZIP自动变成本店库存。
+本包预选16件本店实际球衣，分两组各8件，标题暂为Featured styles和More favourites，避免用samba/NIKE鞋款名称描述球衣。
+本次逐个核对16件本店商品.js链接、最低价与可售状态；价格、图片、库存、折扣继续动态读取本店Shopify商品。
+抽查参考站首页8款鞋的对应本店地址，均未找到同款。若准备改售鞋服，请先在Shopify建立实际商品，再在商品栏中选择它们。
+不会把参考站产品照片、价格或原价作为虚构本店商品导入。
+五张分类图保留Air Force、MEXICO-66、New Balance、samba、UGG参考名称和图像。没有相关商品时默认搜索可能为空。
+分类优先手动URL/实际集合，然后同名集合，最后本店商品搜索；集合本身需在Shopify后台建立。
+默认品牌导航保留参考站Adidas/New Balance/NIKE/Onitsuka Tiger/Woman/Winter shoes层级，可替换为本店菜单。
+
+主题编辑器入口
+OC Header：本店品牌、Logo、欢迎文案、自定义主菜单。
+RS Hero：主横幅、标题、按钮和链接。
+RS Products：每组实际商品（最多12件）、集合、标题、View all链接，默认各8件。
+RS Story：图文图片、标题、说明、按钮和链接。默认中性风格文案，不声称本店有参考鞋类库存。
+RS Collections：5个分类的名称、图片、集合及链接。
+RS Footer：订阅标题、本店品牌/邮箱、4种政策URL覆盖、法律声明页面URL。
+旧自定义分区文件保留用于兼容，当前首页只按新配置order渲染所需分区。
+
+页脚和联系方式
+页脚政策默认收在Terms and Policies中，需要点击展开，与参考站的简洁页脚一致。
+隐私、退款、配送、服务条款优先使用本店Shopify实际政策，否则使用你填写的覆盖URL；缺少正文时显示Not published，避免错误链接或整块空白。
+Contact information优先实际contact页面，缺少时使用页脚填写邮箱或shop.email；都没有则显示Not published。
+Legal notice可以填写本店法律声明页面地址，未填写时保留栏目并显示Not published。
+请在Shopify「设置 → 政策」保存真实正文；主题ZIP不能在后台自动创建政策。
+订阅表单使用Shopify customer/newsletter接口，不承诺未配置的优惠码。
+请确认shop.email是否适合作为对外联系方式，必要时在RS Footer覆盖。
+
+检查和预览
+Theme Check：原Shrine包0错误/69警告；本版0错误/69警告。按相对文件/规则/严重程度/消息对比无新增问题。
+本地LiquidJS/Chromium覆盖320/390/768/1024/1200/1440无横向溢出、7张装修图和32张商品图、16商品卡、2组滚动栏、5拼接分类、导航/下拉/Escape、手机菜单、搜索、政策展开/缺失状态、邮箱格式校验。
+PNG是本地模拟渲染，商品内容来自本店真实快照；Shopify Liquid过滤器、表单、支付图标和政策上下文部分模拟，不是onescloth.com线上截图。
+真实Shopify商品选择、变体、购物车数量、账户、订阅提交和结账仍需上传未发布主题后核验。
+本包是参考风格首页和全局装修，品牌、商品、政策和后台应用有差异，不是整站全部内容一模一样复制。
